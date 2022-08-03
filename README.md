@@ -1,6 +1,15 @@
 <p align="center">
   <img alt="🔃edU" src="https://user-images.githubusercontent.com/62103572/182589849-2a5e6200-f7fd-434e-a9c8-6855ee4ea3f9.png">
-  <a href="https://img.shields.io/badge/Language-C-blue"></a>
+  <img alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/y/EliaFantini/edU-command-line-text-editor-w-multiple-Un-Redo">
+  <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/EliaFantini/edU-command-line-text-editor-w-multiple-Un-Redo">
+  <img alt="Lines of code" src="https://img.shields.io/tokei/lines/github/EliaFantini/edU-command-line-text-editor-w-multiple-Un-Redo">
+  <img alt="GitHub code size" src="https://img.shields.io/github/languages/code-size/EliaFantini/edU-command-line-text-editor-w-multiple-Un-Redo">
+  <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/EliaFantini/edU-command-line-text-editor-w-multiple-Un-Redo">
+  <img alt="GitHub file count" src="https://img.shields.io/github/directory-file-count/EliaFantini/edU-command-line-text-editor-w-multiple-Un-Redo">
+  <img alt="GitHub follow" src="https://img.shields.io/github/followers/EliaFantini?label=Follow">
+  <img alt="GitHub fork" src="https://img.shields.io/github/forks/EliaFantini/edU-command-line-text-editor-w-multiple-Un-Redo?label=Fork">
+  <img alt="GitHub watchers" src="https://img.shields.io/github/watchers/EliaFantini/edU-command-line-text-editor-w-multiple-Un-Redo?abel=Watch">
+  <img alt="GitHub star" src="https://img.shields.io/github/stars/EliaFantini/edU-command-line-text-editor-w-multiple-Un-Redo?style=social">
 </p>
 
 EdU (*ed*itor with *U*ndo) is an highly efficient text editor (in time (ms) and space (RAM usage)), with a multiple undo/redo feature. The program utilizes the command line interface and works with textual input commands. This project was made as an assignment for Algorithms and Data Structures (2019-2020).
