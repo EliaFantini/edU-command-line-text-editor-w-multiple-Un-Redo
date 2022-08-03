@@ -1,7 +1,27 @@
-# Project for Algorithms and Data Structures a.a. 2019-2020
-The aim of the project is to implement an highly efficient text editor ( in time (ms) and space (RAM usage) ), with a multiple undo/redo feature. The program utilizes the command line interface and works with textual input commands.
+<p align="center">
+  <img alt="🔃edU" src="https://user-images.githubusercontent.com/62103572/182589849-2a5e6200-f7fd-434e-a9c8-6855ee4ea3f9.png">
+  <a href="https://img.shields.io/badge/Language-C-blue"></a>
+</p>
 
-## Input commands
+EdU (*ed*itor with *U*ndo) is an highly efficient text editor (in time (ms) and space (RAM usage)), with a multiple undo/redo feature. The program utilizes the command line interface and works with textual input commands. This project was made as an assignment for Algorithms and Data Structures (2019-2020).
+
+## Author
+- [Elia Fantini](https://www.github.com/EliaFantini)
+## Demo
+<p align="left">
+  <img src="https://user-images.githubusercontent.com/62103572/182596421-8dab82ee-64d8-4c48-8c00-6351123a364a.gif" alt="GIF demo"/>
+</p>
+
+## Installation
+
+Download the repository and extract everything into a folder. To compile and run the "code.c" file, type the following commands into a terminal opened in the folder where you extracted the zip's content:
+```bash
+  gcc code.c -o runnable
+  ./runnable
+```
+You can now use the text editor :keyboard:.
+
+## How to use
 
 
 The program accepts the following inputs:
@@ -40,54 +60,11 @@ the maximum number of redos possible.
 - q: finishes the execution of the editor.
 
 ## Example
+![carbon (1)](https://user-images.githubusercontent.com/62103572/182599405-18fa058d-ae90-44e8-a224-b2e62690aa5e.png)
+## 🛠 Skills
+Basics of C ad standard libraries. Optimization of RAM usage and execution time with highly efficient data structures.
 
-### Input: 
-1,2c<br />
-first line<br />
-second line<br />
-.<br />
-2,3c<br />
-new second line<br />
-third row<br />
-.<br />
-1,3p<br />
-1,1c<br />
-new first line<br />
-.<br />
-1,2p<br />
-2,2d<br />
-4,5p<br />
-1,3p<br />
-4,5d<br />
-1,4p<br />
-3u<br />
-1,6p<br />
-1r<br />
-1,3p<br />
-q<br />
+## 🔗 Links
+[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://github.com/EliaFantini/)
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/-elia-fantini/)
 
-
-### Output:
-first line<br />
-new second line<br />
-third row<br />
-new first line<br />
-new second line<br />
-.<br />
-.<br />
-new first line<br />
-third row<br />
-.<br />
-new first line<br />
-third row<br />
-.<br />
-.<br />
-first line<br />
-new second line<br />
-third row<br />
-.<br />
-.<br />
-.<br />
-new first line<br />
-new second line<br />
-third row<br />
