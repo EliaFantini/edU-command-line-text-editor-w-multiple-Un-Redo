@@ -14,7 +14,7 @@ EdU (*ed*itor with *U*ndo) is an highly efficient text editor (in time (ms) and 
 
 ## Installation
 
-Download the repository and extract everything into a folder. To compile and run the "code.c" file, type the following commands into a terminal opened in the folder where you extracted the zip's content:
+Download the repository and extract everything into a folder. The code has already been compiled as "runnable.exe", which can be run directly by double clicking it on any machine with a Windows OS. Otherwise, to compile and run the "code.c" file, type the following commands into a terminal or command prompt opened in the folder where you extracted the zip's content:
 ```bash
   gcc code.c -o runnable
   ./runnable
